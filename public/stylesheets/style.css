@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Gupter&display=swap');
 body {
   padding: 30px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  
+  font-family: 'Gupter', serif;
+  background-image: url(https://media0.giphy.com/media/6JgcRVmRTG4yQ/source.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 h2 {
@@ -8,16 +14,22 @@ h2 {
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+}
+
+#heading{
+	text-align: center;
 }
 
 #wrapper {
-	padding-left:312px;
+	/*align-items: center;*/
+	/*padding-left:50px;*/
+	padding: auto;
 	position:relative;
 }
 
 #userList {
-	margin:0 0 30px 0;
+	margin:0 0 0 0;
 }
 	#userList table {
 		border-collapse:separate;
@@ -42,6 +54,7 @@ a {
 			}
 
 #userInfo {
+	padding-left:450px;
 	width:250px;
 	position:absolute;
 	top:0; left:0;
@@ -52,7 +65,14 @@ a {
 		background:rgba(80,120,255,0.05);
 	}
 
+#addUser{
+	padding-top: 50px;
+	padding-left:450px;
+
+}
+
 fieldset {
 	border:0;
-	padding:0; margin:0;
+	padding:0; 
+	margin:0;
 }
